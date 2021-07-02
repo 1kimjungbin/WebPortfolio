@@ -82,6 +82,16 @@ button {
 	float: left;
 	bottom: 350px;
 }
+
+.container {
+	position: relative;
+	top: 30px;
+}
+
+#img {
+	position: absolute;
+	bottom: 30px;
+}
 #footer {
 	position: absolute;
 	bottom: 0;

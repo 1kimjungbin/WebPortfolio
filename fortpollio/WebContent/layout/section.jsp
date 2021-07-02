@@ -6,38 +6,69 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script>
-	$(document).ready(function(){
-		$("#spreadBtn03").click(function(){
-			if($("#hiddenList02").is(":visible")){
-				/*toggleClass(기존클래스명 바꿀클래스명);*/
-				$("#spreadBtn03").toggleClass("btn01 btn02");
-				$("#hiddenList02").slideUp();
-				}else{
-					$("#spreadBtn03").toggleClass("btn02 btn01");
-					$("#hiddenList02").slideDown();
-					}
-			});
-		});
-	</script>
-</head>
+<style>
+    ul, ol, li { list-style:none; margin:0; padding:0; }
+   
+    ul.myMenu {}
+    ul.myMenu > li { display:inline-block; width:80px; padding:5px 10px; background:#eee; border:1px solid #eee; text-align:center; position:relative; }
+    ul.myMenu > li:hover { background:#fff; }
+    ul.myMenu > li ul.submenu { display:none; position:absolute; top:30px; left:0; }
+    ul.myMenu > li:hover ul.submenu { display:block; }
+    ul.myMenu > li ul.submenu > li { display:inline-block; width:80px; padding:5px 10px; background:#eee; border:1px solid #eee; text-align:center; }
+    ul.myMenu > li ul.submenu > li:hover { background:#fff; }
+</style>
 <body>
 	<section class="section">
-	<div class="img">
-		<h2>TOP FASHION</h2>
+		
+<div class="container">
+<h2>TOP FASHION</h2>
+<ul class="myMenu">
+    <li class="menu1">
+    	메뉴 1
+    	<ul class="menu2_s submenu">
+            <li>메뉴 2-1</li>
+            <li>메뉴 2-2</li>
+            <li>메뉴 2-3</li>
+        </ul>
+    	</li>
+    <li class="menu2">
+        메뉴 2
+        <ul class="menu2_s submenu">
+            <li>메뉴 2-1</li>
+            <li>메뉴 2-2</li>
+            <li>메뉴 2-3</li>
+        </ul>   
+    </li>
+    <li class="menu3">
+        메뉴 3
+        <ul class="menu3_s submenu">
+            <li>메뉴 3-1</li>
+            <li>메뉴 3-2</li>
+            <li>메뉴 3-3</li>
+        </ul>   
+    </li>
+    <li class="menu4">메뉴 4
+    <ul class="menu2_s submenu">
+            <li>메뉴 2-1</li>
+            <li>메뉴 2-2</li>
+            <li>메뉴 2-3</li>
+        </ul>
+        </li>
+    <li class="menu5">메뉴 5
+    <ul class="menu2_s submenu">
+            <li>메뉴 2-1</li>
+            <li>메뉴 2-2</li>
+            <li>메뉴 2-3</li>
+        </ul>
+        </li>   
+</ul>
+</div>
+
+<div id="img">
 		<img src="layout/top1.png" width="300">
 		<img src="layout/top2.jpg" width="300" height="350">
 		<img src="layout/top3.jpg" width="300" height="350">
 	</div>	
-		
-		<div class="cate">
-			<button id="spreadBtn03" class="btn01">펼치기</button>
-			<ul id="hiddenList02" class="example01" style="display: none;">
-				<li>내용</li>
-				<li>내용</li>
-				<li>내용</li>
-			</ul>
-		</div>
 		
 		
 	</section>
