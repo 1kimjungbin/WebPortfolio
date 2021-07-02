@@ -13,22 +13,55 @@ a {color:white; text-decoration: none;}
 	padding: 10px;
 }
 #nav{
+	height: 20px;
   border:1px solid #ccc;
   border-width:1px 0;
   list-style:none;
-  margin:0;
-  padding:0;
-  text-align:center;
+  margin:0px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  text-align: right;
   color: black;
 }
 #nav li{
   display:inline;
   color: black;
+  padding-right: 10px;
 }
 #nav a{
   display:inline-block;
   padding:10px;
   color: black;
+}
+
+.nav_search {
+	position:relative;
+	bottom:30px;
+	height: 40px;
+	line-height: 40px;
+	width: 400px;
+	border: 1px solid black;
+	background-color: #ffffff;
+	
+}
+
+input {
+	font-size: 16px;
+	width: 325px;
+	padding: 10px;
+	border: 0px;
+	outline: none;
+	float: left;
+}
+
+button {
+	width: 50px;
+	height: 100%;
+	border: 0px;
+	background-color: black;
+	outline: none;
+	float: right;
+	color: #ffffff;
 }
 .section {
 	position: fixed;
@@ -40,9 +73,14 @@ a {color:white; text-decoration: none;}
 	text-align: center;
 }
 
-.section img {
-	float: center;
-	padding: 0 10px;
+.section div {
+	text-align: center;
+}
+
+.cate {
+	position: relative;
+	float: left;
+	bottom: 350px;
 }
 #footer {
 	position: absolute;

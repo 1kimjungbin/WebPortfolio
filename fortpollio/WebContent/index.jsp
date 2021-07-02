@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>MUSINSA STORE</title>
 <link rel="styleheet" type="text/css" href="../css/style.css">
 </head>
 <body>
