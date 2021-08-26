@@ -1,3 +1,5 @@
+
+
 #section {
 	background-color: white;
 	text-align: center;
@@ -10,7 +12,7 @@ a {
 	color: black
 }
 * {
-	font-family: "¸¼Àº °íµñ";
+	font-family: "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½";
 	margin: 0 auto;
 }
 
@@ -43,7 +45,7 @@ p {
 
 body, code {
     font-size: 12px;
-    font-family: "Apple SD Gothic Neo","Noto Sans Regular","¸¼Àº °íµñ","malgun gothic","µ¸¿ò","dotum",sans-serif;
+    font-family: "Apple SD Gothic Neo","Noto Sans Regular","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½","malgun gothic","ï¿½ï¿½ï¿½ï¿½","dotum",sans-serif;
     color: #000;
     -webkit-text-size-adjust: none;
 }
