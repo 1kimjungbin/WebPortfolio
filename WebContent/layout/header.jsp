@@ -129,11 +129,9 @@
 		<div class="basket">
 			<a href="#"><i class="fas fa-shopping-basket fa-lg"></i></a>
 		</div>
-		<center>
 			<h1 class="logo">
 				<a href="index.jsp" class="link">0925</a>
 			</h1>
-		</center>
 	</header>
 </body>
 </html>

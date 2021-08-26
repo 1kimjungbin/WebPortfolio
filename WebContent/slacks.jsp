@@ -18,7 +18,7 @@
 		<section id="section">
 			<div id="titleArea"
 				class="xans-element- xans-product xans-product-headcategory ">
-				<h2>All</h2>
+				<h2>Slacks</h2>
 				<p class="banner"></p>
 				<span class="xans-element- xans-layout xans-layout-mobileaction "><a
 					href="#none" onclick="history.go(-1);return false;" class="btnBack">뒤로가기</a>

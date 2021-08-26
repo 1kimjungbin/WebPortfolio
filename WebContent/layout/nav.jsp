@@ -9,29 +9,21 @@
 <link rel="stylesheet" href="css/header-nav.css">
 </head>
 <body>
-	<center>
 		<div id="clothes">
-			<ul class="category" style="height: auto;">
-				<li class="category"><a href="All.jsp" class="link">All</a></li>
-				<li class="category"><a href="#" class="link">Outerwear</a></li>
-				<li class="category"><a href="/category/tops/25/" class="link">Tops</a></li>
-				<li class="category"><a href="/category/t-shirts/54/"
-					class="link">T-shirts</a></li>
-				<li class="category"><a href="/category/bottoms/27/"
-					class="link">Bottoms</a></li>
-				<li class="category"><a href="/category/pants/55/" class="link">Pants</a></li>
-				<li class="category"><a href="/category/slacks/35/"
-					class="link">Slacks</a></li>
-				<li class="category"><a href="/category/skirt/62/" class="link">skirt</a></li>
-				<li class="category"><a href="/category/accessory/28/"
-					class="link">Accessory</a></li>
-				<li class="category"><a href="/category/glasses/50/"
-					class="link">Glasses</a></li>
-				<li class="category"><a href="/category/necklace/53/"
-					class="link">Necklace</a></li>
-				<li class="category"><a href="/category/bag/66/" class="link">Bag</a></li>
+			<ul class="category" style="height: auto; margin: 0; padding: 0;">
+				<li class="category"><a href="All.jsp" class="link"><b>All</b></a></li>
+				<li class="category"><a href="outerwear.jsp" class="link"><b>Outerwear</b></a></li>
+				<li class="category"><a href="tops.jsp" class="link"><b>Tops</b></a></li>
+				<li class="category"><a href="t-shirts.jsp"class="link"><b>T-shirts</b></a></li>
+				<li class="category"><a href="bottoms.jsp"class="link"><b>Bottoms</b></a></li>
+				<li class="category"><a href="pants.jsp" class="link"><b>Pants</b></a></li>
+				<li class="category"><a href="slacks.jsp"class="link"><b>Slacks</b></a></li>
+				<li class="category"><a href="skirt.jsp" class="link"><b>skirt</b></a></li>
+				<li class="category"><a href="accessory.jsp"class="link"><b>Accessory</b></a></li>
+				<li class="category"><a href="glasses.jsp"class="link"><b>Glasses</b></a></li>
+				<li class="category"><a href="necklace.jsp"class="link"><b>Necklace</b></a></li>
+				<li class="category"><a href="bag.jsp" class="link"><b>Bag</b></a></li>
 			</ul>
 		</div>
-	</center>
 </body>
 </html>

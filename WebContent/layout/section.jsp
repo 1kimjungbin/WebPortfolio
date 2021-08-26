@@ -8,10 +8,8 @@
 <link rel="stylesheet" href="css/Section.css">
 </head>
 <body>
-<center>
 		<section id="section">
 			<img src="img/image0.jpg">
 		</section>
-	</center>
 </body>
 </html>
