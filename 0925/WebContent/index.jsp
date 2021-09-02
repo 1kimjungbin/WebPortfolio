@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" language="java" %>
 <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 <meta charset="UTF-8">
 <style>

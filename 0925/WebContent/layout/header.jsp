@@ -2,7 +2,7 @@
     <!DOCTYPE HTML>
     <html>
         <head>
-		<%@ page language="java" contentType="text/html; pageEncoding=UTF-8"%>
+        <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" language="java" %>
             <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
             <script src="http://code.jquery.com/jquery-latest.js"></script>
 			<script>
@@ -139,7 +139,7 @@
                                         <a href="index.jsp">0925</a>
                                     </h1>
                                 </div>
-                                <a href="#">Services</a>
+                                <a href="#">로그인</a>
                                 <a href="#">Clients</a>
                                 <a href="#">Contact</a>
                                 <a href="#">Portfolio</a>
@@ -157,7 +157,7 @@
                         </div>
 
 						<div id="searchLayer">
-							<p>응애</p>
+                            <input type="text" placeholder="검색어를 입력해주세요.">
 						</div>
 						<!--
                         <div class="searchLayer">
