@@ -121,7 +121,6 @@ body {
 	float: right;
 }
 
-.category {
-	margin: 0px;
-	padding: 0px;
+ul.category {
+	float: left;
 }
