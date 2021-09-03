@@ -2,7 +2,7 @@
     <!DOCTYPE html>
     <html>
         <head>
-            <meta charset="EUC-KR">
+            <meta charset="UTF-8">
                 <title>Insert title here</title>
                 <link rel="stylesheet" href="css/Section.css"></head>
                 <body>
@@ -10,7 +10,7 @@
                         <div id="itemH">
                             <h2>추천상품</h2>
                             <div class="item">
-                                <img src="img/image1.jpg" style="width: 50%" ;=";">
+                                <img src="img/image1.jpg" style="width:50%" ;=";">
 							</div>
                             </div>
                         </section>
