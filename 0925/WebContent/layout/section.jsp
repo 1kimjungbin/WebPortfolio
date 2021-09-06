@@ -10,17 +10,12 @@
                         <div id="itemH">
                             <h2>추천상품</h2>
                             <div class="item">
-                                <ul class="item_ul">
-                                    <li>
-                                        <img src="img/image5.jpg" style="width:50%; float: left;" ;=";"></li>
-                                        <li>
-                                            <img src="img/image2.jpg" style="width:50%; float: right;" ;=";"></li>
-                                            <li>
-                                                <img src="img/image3.jpg" style="width:50%; float: right;" ;=";"></li>
-                                                <li>
-                                                    <img src="img/image4.jpg" style="width:50%; float: left;" ;=";"></li>
-                                                </ul>
-                                            </div>
-                                    </section>
-                                </body>
-                            </html>
+                                <img src="img/image5.jpg" style="width:50%; float: left;" ;=";">
+                                <span>응애</span>
+                                <img src="img/image2.jpg" style="width:50%; float: right;" ;=";">
+                                <img src="img/image3.jpg" style="width:50%; float: right;" ;=";">
+                                <img src="img/image4.jpg" style="width:50%; float: left;" ;=";">
+                            </div>
+                                        </section>
+                                    </body>
+                                </html>
