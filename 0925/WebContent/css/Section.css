@@ -1,3 +1,8 @@
-.itemH h2 {
+#itemH h2 {
 	font-size: 16px;
+	padding: 30px 0px 10px 20px;
+}
+
+.item img {
+		padding: 5px 5px 200px 5px;
 }
