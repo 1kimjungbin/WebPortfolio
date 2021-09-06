@@ -4,5 +4,9 @@
 }
 
 .item img {
-		padding: 5px 5px 200px 5px;
+		padding: 5px 5px 5px 5px;
+}
+
+.img5_price {
+	padding: 0 30px;
 }
