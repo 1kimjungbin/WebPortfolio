@@ -112,6 +112,11 @@
                 z-index: 303;
                 text-align: left;
             }
+
+            .sidenav_logo {
+                position: relative;
+                bottom: 60px;
+            }
             /* 미디어쿼리 적용 */
             @media screen and (max-height:450px) {
                 .sidenav {
@@ -134,9 +139,7 @@
                         <i class="fas fa-times fa-sm"></i>
                     </a>
                     <div class="sidenav_logo">
-                        <h1>
                             <a href="index.jsp">0925</a>
-                        </h1>
                     </div>
                     <a href="#">로그인</a>
                     <a href="#">Clients</a>
