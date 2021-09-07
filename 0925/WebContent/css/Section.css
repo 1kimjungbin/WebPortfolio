@@ -5,8 +5,33 @@
 
 .item img {
 		padding: 5px 5px 5px 5px;
+		position: relative;
 }
 
 .img5_price {
 	padding: 0 30px;
+}
+
+.img5_text {
+	text-align: center;
+}
+
+.prdList {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    display: flex;
+    margin: 0 -4px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.prdList li {
+    width: 50%;
+    margin: 0 0 50px;
+    padding: 0 4px;
+    text-align: center;
+    box-sizing: border-box;
 }
