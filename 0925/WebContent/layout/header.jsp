@@ -138,13 +138,11 @@
                     <a href="#" class="closebtn" onclick='closeNav()'>
                         <i class="fas fa-times fa-sm"></i>
                     </a>
-                    <div class="sidenav_logo">
+                    <div class="sidenav_logo" style="float: left;">
                             <a href="index.jsp">0925</a>
                     </div>
-                    <a href="#">로그인</a>
-                    <a href="#">Clients</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Portfolio</a>
+                    <a href="#">1111</a>
+                    <a href="#">23425</a>
                 </div>
                 <span class="openmenu" onclick="openNav();">
                     <i class="fas fa-bars fa-sm"></i>
