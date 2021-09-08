@@ -244,14 +244,14 @@
                             <div>
                                 <label for="slide04" class="left"></label>
                                 <label for="slide02" class="right"></label>
-                                <a href="product/outerwear/test.jsp"><img src="./img/image1.jpg"></a>
+                                <a href="product/outerwear/test.jsp"><img src="./img/와이드-슬랙스.jpg"></a>
                             </div>
                         </li>
                         <li class="slideitem">
                             <div>
                                 <label for="slide01" class="left"></label>
                                 <label for="slide03" class="right"></label>
-                                <a><img src="./img/image2.jpg"></a>
+                                <a><img src="./img/바람막이.jpg"></a>
                             </div>
                         </li>
                         <li class="slideitem">
