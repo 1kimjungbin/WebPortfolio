@@ -111,12 +111,12 @@ ul, ol, dl, li {
                                 <li id="anchorBoxId_102" class="xans-record-">
                                             <div class="thumbnail">
                                                 <div class="prdImg">
-                                                    <a href="/product/코지-니트-팬츠/102/category/1/display/2/" name="anchorBoxName_102"><img src="" id="eListPrdImage102_2" alt="코지 니트 팬츠"></a>
+                                                    <a href="/product/코지-니트-팬츠/102/category/1/display/2/" name="anchorBoxName_102"><img src="img/니트.jpeg" id="eListPrdImage102_2" alt="코지 니트 "></a>
                                                     <span class="wish"><img src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/btn_wish_before.png" class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="102" categoryno="1" icon_status="off" login_status="T" individual-set="F"></span>
                                                 </div>
                                             </div>
                                             <div class="description">
-                                                <strong class="name"><a href="/product/코지-니트-팬츠/102/category/1/display/2/" class=""><span class="title displaynone"><span style="font-size:12px;color:#555555;" data-i18n="PRODUCT.PRD_INFO_PRODUCT_NAME">상품명</span> :</span> <span style="font-size:12px;color:#555555;">코지 니트 팬츠</span></a></strong>
+                                                <strong class="name"><a href="/product/코지-니트-팬츠/102/category/1/display/2/" class=""><span class="title displaynone"><span style="font-size:12px;color:#555555;" data-i18n="PRODUCT.PRD_INFO_PRODUCT_NAME">상품명</span> :</span> <span style="font-size:12px;color:#555555;">코지 니트</span></a></strong>
                                                 <ul class="xans-element- xans-product xans-product-listitem-1 xans-product-listitem xans-product-1 spec"><li class=" xans-record-">
                                 <strong class="title displaynone"><span style="font-size:12px;color:#008BCC;font-weight:bold;" data-i18n="PRODUCT.PRD_INFO_PRODUCT_PRICE"><div style="font-size:12px;color:#008BCC;font-weight:bold; position: relative; left: 100px;"><span style="font-size:12px;color:#008BCC;font-weight:bold;">판매가</span></span> :</strong> <span style="font-size:12px;color:#008BCC;font-weight:bold;">31,000원</span></div><span id="span_product_tax_type_text" style=""> </span></li>
                                 <li class=" xans-record-">
@@ -130,12 +130,12 @@ ul, ol, dl, li {
                                 <li id="anchorBoxId_101" class="xans-record-">
                                             <div class="thumbnail">
                                                 <div class="prdImg">
-                                                    <a href="/product/울-더블-코트/101/category/1/display/2/" name="anchorBoxName_101"><img src="" id="eListPrdImage101_2" alt="울 더블 코트"></a>
+                                                    <a href="/product/울-더블-코트/101/category/1/display/2/" name="anchorBoxName_101"><img src="img/ELT-숏패딩.jpeg" id="eListPrdImage101_2" alt="ELT-숏패딩"></a>
                                                     <span class="wish"><img src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/btn_wish_before.png" class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="101" categoryno="1" icon_status="off" login_status="T" individual-set="F"></span>
                                                 </div>
                                             </div>
                                             <div class="description">
-                                                <strong class="name"><a href="/product/울-더블-코트/101/category/1/display/2/" class=""><span class="title displaynone"><span style="font-size:12px;color:#555555;" data-i18n="PRODUCT.PRD_INFO_PRODUCT_NAME">상품명</span> :</span> <span style="font-size:12px;color:#555555;">울 더블 코트</span></a></strong>
+                                                <strong class="name"><a href="/product/울-더블-코트/101/category/1/display/2/" class=""><span class="title displaynone"><span style="font-size:12px;color:#555555;" data-i18n="PRODUCT.PRD_INFO_PRODUCT_NAME">상품명</span> :</span> <span style="font-size:12px;color:#555555;">ELT 숏패딩</span></a></strong>
                                                 <ul class="xans-element- xans-product xans-product-listitem-1 xans-product-listitem xans-product-1 spec"><li class=" xans-record-">
                                 <strong class="title displaynone"><span style="font-size:12px;color:#008BCC;font-weight:bold;" data-i18n="PRODUCT.PRD_INFO_PRODUCT_PRICE"><div style="font-size:12px;color:#008BCC;font-weight:bold; position: relative; left: 100px;"><span style="font-size:12px;color:#008BCC;font-weight:bold;">판매가</span></span> :</strong> <span style="font-size:12px;color:#008BCC;font-weight:bold;">81,000원</span></div><span id="span_product_tax_type_text" style=""> </span></li>
                                 <li class=" xans-record-">
