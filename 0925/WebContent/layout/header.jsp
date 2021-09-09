@@ -4,6 +4,10 @@
         <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" language="java" %>
             <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
             <script src="http://code.jquery.com/jquery-latest.js"></script>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
             <script>
                 function openNav() {
                     document
@@ -53,13 +57,32 @@
                 color: black;
             }
 
+            /*
             .sidenav a {
-                padding: 8px 8px 8px 32px;
                 text-decoration: none;
                 font-size: 25px;
                 color: black;
                 display: block;
                 transition: 0.2s ease-in-out;
+                text-align: left;
+            }*/
+
+            .topmenu {
+                position: relative;
+                padding: 20px 16px 33px;
+                background-color: #fff;
+            }
+
+            .topmenu .toplogo a {
+                font-size: 24px;
+                font-weight: normal;
+                text-decoration: none;
+                bottom: 75px;
+                position: relative;
+            }
+
+            .topmenu .toplogo {
+                margin: 0 0 22px;
                 text-align: left;
             }
 
@@ -126,6 +149,21 @@
                     font-size: 18px;
                 }
             }
+
+            .sideinfo {
+                position: relative;
+                background-color: #fff;
+                bottom: 120px;
+            }
+            .sideinfo li:first-child {
+                margin-left: 0;
+            }
+
+            .sideinfo li {
+                margin: 0 15px 13px;
+                float: left;
+            }
+
         </style>
         <meta charset="UTF-8">
         <title>0925</title>
@@ -138,11 +176,13 @@
                     <a href="#" class="closebtn" onclick='closeNav()'>
                         <i class="fas fa-times fa-sm"></i>
                     </a>
-                    <div class="sidenav_logo" style="float: left;">
-                            <a href="index.jsp">0925</a>
+                    <div class="topmenu">
+                        <h1 class="toplogo"><a href="index.jsp">0925</a></h1>
+                        <ul class="sideinfo">
+                            <li class="wish"><a href="/myshop/wish_list.html"><img src="https://moma-img.cafe24img.com/img/1/54bf/icon_wish.png" width="28" alt=""></a></li>
+                            <li class="cart"><a href="/order/basket.html"><img src="https://moma-img.cafe24img.com/img/1/54bf/icon_cart.png" width="20" alt=""><span class="count displaynone EC-Layout_Basket-count-display"><span class="EC-Layout-Basket-count"></span></span></a></li>
+                        </ul>
                     </div>
-                    <a href="#">1111</a>
-                    <a href="#">23425</a>
                 </div>
                 <span class="openmenu" onclick="openNav();">
                     <i class="fas fa-bars fa-sm"></i>
