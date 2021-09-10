@@ -67,7 +67,7 @@ body {
 	width: 100%;
 	font-size: 14px;
 	font-family: "Noto Sans KR";
-	font-weight: 100;
+	font-weight: bold;
 }
 
 #clothes li {
@@ -86,6 +86,7 @@ body {
 	position: relative;
 	right: 35px;
 	font-family: "Noto Sans KR";
+	font-weight: 300;
 }
 
 #clothes li a {
