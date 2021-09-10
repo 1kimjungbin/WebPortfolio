@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" language="java" %>
             <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
             <script src="http://code.jquery.com/jquery-latest.js"></script>
             <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -252,103 +251,134 @@
             }
 
             .searchForm {
-    position: relative;
-    top: 120px;
-    padding: 0 34px 0 28px;
-    border-bottom: 2px solid #070712;
-    background: url(https://moma-img.echosting.cafe24.com/img/1/54bf/bg_search.png) no-repeat 0 6px;
-    background-size: 18px 17px;
-    width: 300px;
-    height: 36px;
-}
+                position: relative;
+                top: 120px;
+                padding: 0 34px 0 28px;
+                border-bottom: 2px solid #070712;
+                background: url("https://moma-img.echosting.cafe24.com/img/1/54bf/bg_search.png") no-repeat 0 6px;
+                background-size: 18px 17px;
+                width: 300px;
+                height: 36px;
+            }
 
-#keyword {
-    width: 100%;
-    height: 32px;
-    padding: 0;
-    border: 0;
-    font-size: 14px;
-    color: #9c9ca0;
-    position: relative;
-    bottom: 255px;
-}
+            #keyword {
+                width: 100%;
+                height: 32px;
+                padding: 0;
+                border: 0;
+                font-size: 14px;
+                color: #9c9ca0;
+                position: relative;
+                bottom: 255px;
+            }
 
-input[type=text] {
-    height: 360px;
-    padding: 10px;
-    font-size: 13px;
-    line-height: 13px;
-    font-weight: inherit;
-    color: #353535;
-    border: 1px solid #dedfe2;
-    border-radius: 0;
-    outline-style: none;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-appearance: none;
-}
+            input[type=text] {
+                height: 360px;
+                padding: 10px;
+                font-size: 13px;
+                line-height: 13px;
+                font-weight: inherit;
+                color: #353535;
+                border: 1px solid #dedfe2;
+                border-radius: 0;
+                outline-style: none;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                -webkit-appearance: none;
+            }
 
-input[type="button"], input[type="text"], input[type="password"], input[type="tel"], input[type="image"], textarea {
-    -webkit-appearance: none;
-}
+            input[type="button"],
+            input[type="text"],
+            input[type="password"],
+            input[type="tel"],
+            input[type="image"],
+            textarea {
+                -webkit-appearance: none;
+            }
 
-input[type=text], input[type=password], input[type=number], input[type=tel] {
-    height: 36px;
-}
-input[type=text], input[type=password], input[type=number], input[type=tel], textarea {
-    padding: 10px;
-    font-size: 13px;
-    line-height: 13px;
-    font-weight: inherit;
-    color: #353535;
-    border: 1px solid #dedfe2;
-}
-input[type="button"], input[type="text"], input[type="password"], input[type="tel"], input[type="image"], textarea {
-    -webkit-appearance: none;
-}
-input[type=text], input[type=password], input[type=number], input[type=tel] {
-    height: 36px;
-}
-input[type=text], input[type=password], input[type=number], input[type=tel], textarea {
-    padding: 10px;
-    font-size: 13px;
-    line-height: 13px;
-    font-weight: inherit;
-    color: #353535;
-    border: 1px solid #dedfe2;
-    border-radius: 0;
-    outline-style: none;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-input, textarea, select {
-    max-width: 100%;
-    font-size: 13px;
-    color: #000;
-    vertical-align: middle;
-    outline: 0;
-    border-radius: 0;
-}
+            input[type=number],
+            input[type=password],
+            input[type=tel],
+            input[type=text] {
+                height: 36px;
+            }
+            input[type=number],
+            input[type=password],
+            input[type=tel],
+            input[type=text],
+            textarea {
+                padding: 10px;
+                font-size: 13px;
+                line-height: 13px;
+                font-weight: inherit;
+                color: #353535;
+                border: 1px solid #dedfe2;
+            }
+            input[type="button"],
+            input[type="text"],
+            input[type="password"],
+            input[type="tel"],
+            input[type="image"],
+            textarea {
+                -webkit-appearance: none;
+            }
+            input[type=number],
+            input[type=password],
+            input[type=tel],
+            input[type=text] {
+                height: 36px;
+            }
+            input[type=number],
+            input[type=password],
+            input[type=tel],
+            input[type=text],
+            textarea {
+                padding: 10px;
+                font-size: 13px;
+                line-height: 13px;
+                font-weight: inherit;
+                color: #353535;
+                border: 1px solid #dedfe2;
+                border-radius: 0;
+                outline-style: none;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+            input,
+            select,
+            textarea {
+                max-width: 100%;
+                font-size: 13px;
+                color: #000;
+                vertical-align: middle;
+                outline: 0;
+                border-radius: 0;
+            }
 
-.btnDelete {
-    position: absolute;
-    right: 4px;
-    top: 0;
-    display: block;
-    width: 28px;
-    height: 28px;
-    border: 0;
-    cursor: pointer;
-    overflow: hidden;
-    text-indent: 100%;
-    font-size: 0;
-    white-space: nowrap;
-    background: url(https://moma-img.echosting.cafe24.com/img/1/54bf/btn_delete.png) no-repeat center center;
-    background-size: 15px 15px;
-}
+            .btnDelete {
+                position: absolute;
+                right: 4px;
+                top: 0;
+                display: block;
+                width: 28px;
+                height: 28px;
+                border: 0;
+                cursor: pointer;
+                overflow: hidden;
+                text-indent: 100%;
+                font-size: 0;
+                white-space: nowrap;
+                background: url("https://moma-img.echosting.cafe24.com/img/1/54bf/btn_delete.png") no-repeat center center;
+                background-size: 15px 15px;
+            }
 
+            ul.sidemenu_section{
+                float: center;
+                padding: 0 33px;
+                background-color: black;
+            }
         </style>
         <meta charset="UTF-8">
         <title>0925</title>
@@ -407,6 +437,68 @@ input, textarea, select {
                             <button type="button" class="btnDelete">삭제</button>
                         </div>
                     </div>
+                    <ul class="sidemenu_section">
+                        <li>
+                            <a href="All.jsp" class="link">
+                                <b>All</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="outerwear.jsp" class="link">
+                                <b>Outerwear</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tops.jsp" class="link">
+                                <b>Tops</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="t-shirts.jsp" class="link">
+                                <b>T-shirts</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="bottoms.jsp" class="link">
+                                <b>Bottoms</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pants.jsp" class="link">
+                                <b>Pants</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="slacks.jsp" class="link">
+                                <b>Slacks</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="skirt.jsp" class="link">
+                                <b>skirt</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="accessory.jsp" class="link">
+                                <b>Accessory</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="glasses.jsp" class="link">
+                                <b>Glasses</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="necklace.jsp" class="link">
+                                <b>Necklace</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="bag.jsp" class="link">
+                                <b>Bag</b>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <span class="openmenu" onclick="openNav();">
                     <i class="fas fa-bars fa-sm"></i>

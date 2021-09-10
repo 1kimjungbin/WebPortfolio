@@ -86,7 +86,7 @@ body {
 	position: relative;
 	right: 35px;
 	font-family: "Noto Sans KR";
-	font-weight: 300;
+	font-weight: 300;	
 }
 
 #clothes li a {
@@ -97,10 +97,6 @@ body {
 }
 
 
-.logo {
-	float: center;
-	width: 50%;
-}
 
 .logo_side {
 	position: relative;
