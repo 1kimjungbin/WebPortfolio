@@ -115,17 +115,6 @@ body {
 	float: left;
 }
 
-.user {
-	width: 50px;
-	height: 10px;
-	float: right;
-}
-
-.basket {
-	width: 20px;
-	height: 10px;
-	float: right;
-}
 
 * {
     margin: 0;
