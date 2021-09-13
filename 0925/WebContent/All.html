@@ -6,21 +6,29 @@
 <script type="text/javascript">   
 	$(document).ready( function() {
 	
-	$("#headers").load("layout/header.html");  // 원하는 파일 경로를 삽입하면 된다
-	$("#navs").load("layout/nav.html");  // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
+	$("#header").load("layout/header.html");  // 원하는 파일 경로를 삽입하면 된다
+	$("#nav").load("layout/nav.html");  // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
 	
 	});
 	</script>
 <meta charset="UTF-8" pageEncoding="UTF-8">
 <title>0925</title>
 <link rel="stylesheet" href="css/All.css">
+<script type="text/javascript">   
+	$(document).ready( function() {
+	
+	$("#header").load("layout/header.html");  // 원하는 파일 경로를 삽입하면 된다
+	$("#nav").load("layout/nav.html");
+	
+	});
+	</script>
 </head>
 <body>
 	<header>
-		<div id="headers"></div>
+		<div id="header"></div>
 	</header>
 	<nav>
-		<div id="navs"></div>
+		<div id="nav"></div>
 	</nav>
 		<section id="section">
 			<div id="titleArea"
