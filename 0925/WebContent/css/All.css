@@ -1,5 +1,5 @@
 
-* {
+b {
     font-family: 'Pretendard-Light';
 }
 
@@ -32,6 +32,7 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    
 }
 #titleArea .banner {
     padding: 10px 16px;
@@ -67,4 +68,8 @@ a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
     text-decoration: underline;
+}
+
+#titleArea h2 {
+    font-family: 'Pretendard-Light';
 }
