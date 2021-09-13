@@ -10,5 +10,5 @@
 ## 스크린샷
 
 <img src="https://github.com/1kimjungbin/portfolio/blob/master/screenshots/mainpage.png">
-<img src="https://github.com/1kimjungbin/portfolio/blob/master/screenshots/사이드 메뉴.png">
+<img src="https://github.com/1kimjungbin/portfolio/blob/master/screenshots/menu.png">
 <img src="https://github.com/1kimjungbin/portfolio/blob/master/screenshots/추천상품.png">
