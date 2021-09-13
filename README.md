@@ -1,6 +1,7 @@
-# WebSite Portfolio
+# WebSite Portfolio & Link
 
 > HTML 및 JSP와 CSS의 개념 이해 목적으로 포트폴리오를 작성했습니다.
+> https://1kimjungbin.github.io/portfolio/0925/WebContent/index.html
 
 ## 웹사이트 개발방향
 
