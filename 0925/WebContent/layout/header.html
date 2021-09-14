@@ -44,6 +44,16 @@
                     .style
                     .display = "block";
             }
+            function searchLayerOff() {
+                document
+                    .getElementById('header_layer')
+                    .style
+                    .display = "none";
+                document
+                    .getElementById('searchLayer')
+                    .style
+                    .display = "none";
+            }
         </script>
         <link rel="stylesheet" href="css/header-nav.css"></head>
     <style>
@@ -159,7 +169,7 @@
         #searchLayer {
             top: 0;
             width: 900px;
-            height: 110px;
+            height: 130px;
             background-color: white;
             display: none;
             position: absolute;
@@ -488,7 +498,39 @@
             background: url("//img.echosting.cafe24.com/skin/dnd_ko_KR/common/layout/btn_aside_close.png") no-repeat 0 0;
             background-size: 30px auto;
         }
+        #searchLayer input {
+            position: relative;
+            top: 18px;
+            left: 33px;
+            width: 820px;
+            height: 50%;
+            padding: 0;
+            margin: 0;
+            border: #fff;
+            font-size: 14px;
+        }
 
+        .topSearch {
+            border-bottom: 1px solid #dedfe2;
+            width: 900px;
+            height: 47%;
+            padding: 0;
+            margin: 0;
+        }
+
+        #searchLayer .btnBack {
+    overflow: hidden;
+    position: absolute;
+    left: 7px;
+    top: 23px;
+    width: 20px;
+    height: 20px;
+    font-size: 1px;
+    line-height: 0;
+    color: transparent;
+    background: url(https://moma-img.echosting.cafe24.com/img/1/ba88/btn_title_back.png) no-repeat 0 0;
+    background-size: 20px auto;
+}
     </style>
     <meta charset="UTF-8">
     <title>0925</title>
@@ -623,7 +665,10 @@
         </div>
 
         <div id="searchLayer">
-            <input type="text" placeholder="검색어를 입력해주세요.">
+            <div class="topSearch">
+                <a href="#none" onclick="searchLayerOff();" class="btnBack">뒤로가기</a>
+                <input type="text" placeholder="">
+            </div>
         </div>
             <span class="xans-element- xans-layout xans-layout-orderbasketcount btnBasket ">
                 <a href="/order/basket.html">장바구니<span class="count displaynone EC-Layout_Basket-count-display"><span class="EC-Layout-Basket-count"></span></span></a>
