@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -19,8 +20,6 @@
             href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap"
             rel="stylesheet">
 
-            <link
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" rel="stylesheet">
         <script type="text/javascript">
             $(document).ready(function () {
 
@@ -28,6 +27,22 @@
                 $("#navs").load("layout/nav.html"); // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
 
             });
+        </script>
+
+        <script type="text/javascript">
+    import mysql from 'mysql';
+
+// createConnection : 접속하고 싶은 DB정보 입력
+
+var connection = mysql.createConnection({
+    host: 'localhost',
+    user: 'system',
+    password: '1234',
+});
+
+// DB 연결
+
+connection.connect();
         </script>
         <style>
             body {
@@ -53,6 +68,7 @@
         </style>
         <meta charset="UTF-8" pageencoding="UTF-8">
         <title>0925</title>
+
     </head>
     <body>
         <header>
@@ -70,7 +86,12 @@
             <div class="input-form-backgroud row">
                 <div class="input-form col-md-12 mx-auto">
                     <h4 class="mb-3">회원가입</h4>
-                    <form class="validation-form" novalidate="novalidate" action="sign-in_p.html" method="post" onsubmit="return checkValue()">
+                    <form
+                        class="validation-form"
+                        novalidate="novalidate"
+                        action="sign-in_p.html"
+                        method="post"
+                        onsubmit="return checkValue()">
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <label for="name">이름</label>
@@ -114,49 +135,49 @@
                                 이메일을 입력해주세요.
                             </div>
                         </div>
-                                <div class="col-md-6 mb-3">
-                                    <label for="name">ID</label>
-                                    <input
-                                        type="text"
-                                        name="signid"
-                                        class="form-control"
-                                        id="name"
-                                        placeholder=""
-                                        value=""
-                                        required="required">
-                                    <div class="invalid-feedback">
-                                        ID를 입력해주세요.
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <label for="name">PASSWORD</label>
-                                    <input
-                                        type="password"
-                                        name="signpass"
-                                        class="form-control"
-                                        id="name"
-                                        placeholder=""
-                                        value=""
-                                        required="required">
-                                    <div class="invalid-feedback">
-                                        비밀번호를 입력해주세요.
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <label for="name">비밀번호 확인</label>
-                                    <input
-                                        type="password"
-                                        name="signpass2"
-                                        class="form-control"
-                                        id="name"
-                                        placeholder=""
-                                        value=""
-                                        required="required">
-                                    <div class="invalid-feedback">
-                                        비밀번호를 한번 더 입력해주세요.
-                                    </div>
-                                </div>
-                        
+                        <div class="col-md-6 mb-3">
+                            <label for="name">ID</label>
+                            <input
+                                type="text"
+                                name="signid"
+                                class="form-control"
+                                id="name"
+                                placeholder=""
+                                value=""
+                                required="required">
+                            <div class="invalid-feedback">
+                                ID를 입력해주세요.
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="name">PASSWORD</label>
+                            <input
+                                type="password"
+                                name="signpass"
+                                class="form-control"
+                                id="name"
+                                placeholder=""
+                                value=""
+                                required="required">
+                            <div class="invalid-feedback">
+                                비밀번호를 입력해주세요.
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="name">비밀번호 확인</label>
+                            <input
+                                type="password"
+                                name="signpass2"
+                                class="form-control"
+                                id="name"
+                                placeholder=""
+                                value=""
+                                required="required">
+                            <div class="invalid-feedback">
+                                비밀번호를 한번 더 입력해주세요.
+                            </div>
+                        </div>
+
                         <hr class="mb-4">
                         <div class="custom-control custom-checkbox">
                             <input
