@@ -1,4 +1,16 @@
+<%@ page import="test.DBconnect"%>
+<%@ page import="java.sql.*"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%
+String sql="select max from signin";
 
+Connection conn = DBconnect.getConnection();
+
+    // PreparedStatement 는 오라클에 쿼리(sql문)를 보내는 그릇
+PreparedStatement pstmt = conn.prepareStatement(sql);
+    // 가장 큰값에 +1을 더해줌
+
+%>
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -23,27 +35,13 @@
         <script type="text/javascript">
             $(document).ready(function () {
 
-                $("#headers").load("layout/header.html"); // 원하는 파일 경로를 삽입하면 된다
-                $("#navs").load("layout/nav.html"); // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
+                $("#headers").load("layout/header.jsp"); // 원하는 파일 경로를 삽입하면 된다
+                $("#navs").load("layout/nav.jsp"); // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
 
             });
         </script>
 
-        <script type="text/javascript">
-    import mysql from 'mysql';
-
-// createConnection : 접속하고 싶은 DB정보 입력
-
-var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'bin10041004',
-});
-
-// DB 연결
-
-connection.connect();
-        </script>
+ 
         <style>
             body {
                 min-height: 100vh;
@@ -90,7 +88,7 @@ connection.connect();
                         name="data"
                         class="validation-form"
                         novalidate="novalidate"
-                        action="sign-in_p.html"
+                        action="sign-in_p.jsp"
                         method="post"
                         onsubmit="return checkValue()">
                         <div class="row">
@@ -159,7 +157,8 @@ connection.connect();
                                 id="name"
                                 placeholder=""
                                 value=""
-                                required="required">
+                                required="required"
+                                onchange="check_pw()">
                             <div class="invalid-feedback">
                                 비밀번호를 입력해주세요.
                             </div>
@@ -173,7 +172,8 @@ connection.connect();
                                 id="name"
                                 placeholder=""
                                 value=""
-                                required="required">
+                                required="required"
+                                onchange="check_pw()">&nbsp;<span id="check">
                             <div class="invalid-feedback">
                                 비밀번호를 한번 더 입력해주세요.
                             </div>
