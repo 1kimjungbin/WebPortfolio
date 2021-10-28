@@ -14,7 +14,7 @@
                 <div class="thumbnail">
                     <div class="prdImg">
                         <a href="/product/와이드-슬랙스.jsp" name="anchorBoxName_96">
-                            <img src="img/와이드-슬랙스.jpg" id="eListPrdImage96_2" alt="와이드 슬랙스"></a>
+                            <img src="img/wide.jpg" id="eListPrdImage96_2" alt="와이드 슬랙스"></a>
                         <span class="wish">
                             <img
                                 src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/btn_wish_before.png"
@@ -77,7 +77,7 @@
                 <div class="thumbnail">
                     <div class="prdImg">
                         <a href="/product/바람막이.jsp" name="anchorBoxName_103">
-                            <img src="img/바람막이.jpg" id="eListPrdImage103_2" alt="바람막이"></a>
+                            <img src="img/wind.jpg" id="eListPrdImage103_2" alt="바람막이"></a>
                         <span class="wish">
                             <img
                                 src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/btn_wish_before.png"

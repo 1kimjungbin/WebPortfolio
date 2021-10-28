@@ -8,6 +8,8 @@ Connection conn = DBconnect.getConnection();
 
     // PreparedStatement 는 오라클에 쿼리(sql문)를 보내는 그릇
 PreparedStatement pstmt = conn.prepareStatement(sql);
+ResultSet rs = pstmt.executeQuery();
+
     // 가장 큰값에 +1을 더해줌
 
 %>
