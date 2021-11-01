@@ -2,17 +2,19 @@
 <%@ page import="java.sql.*"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%
-String sql="select max from signin";
+	String sql="select max(custno) from member_tbl_02";
 
-Connection conn = DBconnect.getConnection();
+	Connection conn = DBconnect.getConnection();
 
-    // PreparedStatement 는 오라클에 쿼리(sql문)를 보내는 그릇
-PreparedStatement pstmt = conn.prepareStatement(sql);
-ResultSet rs = pstmt.executeQuery();
-
-    // 가장 큰값에 +1을 더해줌
-
+	PreparedStatement pstmt = conn.prepareStatement(sql);
+	ResultSet rs = pstmt.executeQuery();
+	
+	rs.next();
+	int num = rs.getInt(1)+1;
+        // 가장 큰값에 +1을 더해줌
 %>
+
+
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -66,9 +68,34 @@ ResultSet rs = pstmt.executeQuery();
                 box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
             }
         </style>
-        <meta charset="UTF-8" pageencoding="UTF-8">
+        <script type="text/javascript">
+	function checkValue() {
+		if(!document.data.signname.value) {
+			alert("회원성명을 입력하세요.");
+			document.data.signname.focus();
+			return false;
+		} else if(!document.data.phone.value) {
+			alert("전화번호를 입력하세요.");
+			document.data.phone.focus();
+			return false;
+		} else if (!document.data.email.value) {
+			alert("주소를 입력하세요.");
+			document.data.email.focus();
+			return false;
+		} else if (!document.data.signid.value) {
+			alert("가입일자를 입력하세요.");
+			document.data.signid.focus();
+			return false;
+		} else if (!document.data.signpass.value) {
+			alert("고객등급을 입력하세요.");
+			document.data.signpass.focus();
+			return false;
+		} 
+	}
+    </script>
+        
+        <meta charset="UTF-8" pageEncoding="UTF-8">
         <title>0925</title>
-
     </head>
     <body>
         <header>
@@ -94,7 +121,14 @@ ResultSet rs = pstmt.executeQuery();
                         method="post"
                         onsubmit="return checkValue()">
                         <div class="row">
-                            <div class="col-md-6 mb-3">
+						<table class="table_line">
+							<tr>
+								<th>회원번호(자동발생)</th>
+								<td><input type="text" name="custno" value="<%=num%>"
+									size="10" readonly></td>
+							</tr>
+						</table>
+						<div class="col-md-6 mb-3">
                                 <label for="name">이름</label>
                                 <input
                                     type="text"
@@ -109,17 +143,17 @@ ResultSet rs = pstmt.executeQuery();
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <label for="nickname">별명</label>
+                                <label for="phone">전화번호</label>
                                 <input
                                     type="text"
-                                    name="signname2"
+                                    name="phone"
                                     class="form-control"
                                     id="nickname"
                                     placeholder=""
                                     value=""
                                     required="required">
                                 <div class="invalid-feedback">
-                                    별명을 입력해주세요.
+                                    전화번호를 입력해주세요.
                                 </div>
                             </div>
                         </div>
@@ -163,21 +197,6 @@ ResultSet rs = pstmt.executeQuery();
                                 onchange="check_pw()">
                             <div class="invalid-feedback">
                                 비밀번호를 입력해주세요.
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="name">비밀번호 확인</label>
-                            <input
-                                type="password"
-                                name="signpass2"
-                                class="form-control"
-                                id="name"
-                                placeholder=""
-                                value=""
-                                required="required"
-                                onchange="check_pw()">&nbsp;<span id="check">
-                            <div class="invalid-feedback">
-                                비밀번호를 한번 더 입력해주세요.
                             </div>
                         </div>
 

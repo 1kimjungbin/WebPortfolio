@@ -5,17 +5,17 @@
 <%
 
 request.setCharacterEncoding("UTF-8");
-String sql="insert into signin values (?, ?, ?, ?, ?, ?)";
+String sql="insert into member_tbl_02 values (?, ?, ?, ?, ?, ?)";
 
 Connection conn = DBconnect.getConnection();
 PreparedStatement pstmt = conn.prepareStatement(sql);
 
-pstmt.setInt(1, Integer.parseInt(request.getParameter("signname")));
-pstmt.setString(2, request.getParameter("signname2"));
-pstmt.setString(3, request.getParameter("signemail"));
-pstmt.setString(4, request.getParameter("signid"));
-pstmt.setString(5, request.getParameter("signpass"));
-pstmt.setString(6, request.getParameter("signpass2"));
+pstmt.setInt(1, Integer.parseInt(request.getParameter("custno")));
+pstmt.setString(2, request.getParameter("custname"));
+pstmt.setString(3, request.getParameter("phone"));
+pstmt.setString(4, request.getParameter("email"));
+pstmt.setString(5, request.getParameter("signid"));
+pstmt.setString(6, request.getParameter("signpass"));
 
 pstmt.executeUpdate();
 
@@ -27,6 +27,8 @@ pstmt.executeUpdate();
         <title>0925</title>
     </head>
     <body>
-        <p></p>
+        <jsp:forward page="sign-in.jsp"></jsp:forward>
+
+
     </body>
 </html>

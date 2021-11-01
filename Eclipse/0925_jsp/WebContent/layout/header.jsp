@@ -570,8 +570,8 @@
                     </p>
                     <div class="btnMember">
                         <div class="btnGrid2">
-                            <a href="/member/agreement.jsp" class="button btnNormal">회원가입</a>
-                            <a href="/myshop/order/list.jsp" class="button btnNormal">주문조회</a>
+                            <a href="sign-in.jsp" class="button btnNormal">회원가입</a>
+                            <a href="#" class="button btnNormal">주문조회</a>
                         </div>
                         <a href="login.jsp" class="button btnEm">로그인</a>
                     </div>
