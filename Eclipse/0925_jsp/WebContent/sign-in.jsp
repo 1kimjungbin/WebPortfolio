@@ -9,8 +9,11 @@
 	PreparedStatement pstmt = conn.prepareStatement(sql);
 	ResultSet rs = pstmt.executeQuery();
 	
-	rs.next();
-	int num = rs.getInt(1)+1;
+	int num = 100001;
+	
+	if(rs.next()) {
+		num = rs.getInt(1)+1;
+	}
         // 가장 큰값에 +1을 더해줌
 %>
 
@@ -70,9 +73,9 @@
         </style>
         <script type="text/javascript">
 	function checkValue() {
-		if(!document.data.signname.value) {
+		if(!document.data.custname.value) {
 			alert("회원성명을 입력하세요.");
-			document.data.signname.focus();
+			document.data.custname.focus();
 			return false;
 		} else if(!document.data.phone.value) {
 			alert("전화번호를 입력하세요.");
@@ -132,7 +135,7 @@
                                 <label for="name">이름</label>
                                 <input
                                     type="text"
-                                    name="signname"
+                                    name="custname"
                                     class="form-control"
                                     id="name"
                                     placeholder=""
