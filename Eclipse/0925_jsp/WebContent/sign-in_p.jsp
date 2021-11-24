@@ -5,7 +5,7 @@
 <%
 
 request.setCharacterEncoding("UTF-8");
-String sql="insert into member_tbl_02 values (?, ?, ?, ?, ?, ?)";
+String sql="insert into sign_tbl values (?, ?, ?, ?, ?, ?)";
 
 Connection conn = DBconnect.getConnection();
 PreparedStatement pstmt = conn.prepareStatement(sql);
