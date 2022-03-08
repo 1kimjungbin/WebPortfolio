@@ -2,7 +2,7 @@
 <%@ page import="java.sql.*"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%
-	String sql="select max(custno) from sign_tbl";
+	String sql="select max(num) from sign_tbl";
 
 	Connection conn = DBconnect.getConnection();
 
@@ -73,9 +73,9 @@
         </style>
         <script type="text/javascript">
 	function checkValue() {
-		if(!document.data.custname.value) {
+		if(!document.data.name.value) {
 			alert("회원성명을 입력하세요.");
-			document.data.custname.focus();
+			document.data.name.focus();
 			return false;
 		} else if(!document.data.phone.value) {
 			alert("전화번호를 입력하세요.");
@@ -127,7 +127,7 @@
 						<table class="table_line">
 							<tr>
 								<th>회원번호(자동발생)</th>
-								<td><input type="text" name="custno" value="<%=num%>"
+								<td><input type="text" name="num" value="<%=num%>"
 									size="10" readonly></td>
 							</tr>
 						</table>
@@ -135,7 +135,7 @@
                                 <label for="name">이름</label>
                                 <input
                                     type="text"
-                                    name="custname"
+                                    name="name"
                                     class="form-control"
                                     id="name"
                                     placeholder=""

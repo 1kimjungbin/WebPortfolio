@@ -10,8 +10,8 @@ String sql="insert into sign_tbl values (?, ?, ?, ?, ?, ?)";
 Connection conn = DBconnect.getConnection();
 PreparedStatement pstmt = conn.prepareStatement(sql);
 
-pstmt.setInt(1, Integer.parseInt(request.getParameter("custno")));
-pstmt.setString(2, request.getParameter("custname"));
+pstmt.setInt(1, Integer.parseInt(request.getParameter("num")));
+pstmt.setString(2, request.getParameter("name"));
 pstmt.setString(3, request.getParameter("phone"));
 pstmt.setString(4, request.getParameter("email"));
 pstmt.setString(5, request.getParameter("signid"));

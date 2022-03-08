@@ -8,7 +8,7 @@ public class DBconnect {
 		Connection conn = null;
 		
 		String url = "jdbc:oracle:thin:@localhost:1521:xe";
-		String id = "system";
+		String id = "jb";
 		String pw = "1234";
 		
 		try {
