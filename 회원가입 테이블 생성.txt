@@ -1,0 +1,8 @@
+create table sign_tbl (
+num number(6) not null,
+name varchar2(20),
+phone varchar2(13),
+email varchar2(60),
+signid varchar2(32),
+signpass varchar2(16)
+);
