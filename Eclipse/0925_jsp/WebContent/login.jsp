@@ -362,10 +362,10 @@ legend, .blind {
 					<ul class="menu" style="display: none;"><li class="selected"><a href="#none" tabname="#member_login">회원 로그인</a></li>
 						<li><a href="#none" tabname="#order_login">비회원 로그인</a></li>
 					</ul></div>
-				<form id="member_form_3811761512" name="" action="/exec/front/Member/login/" method="post" target="_self" enctype="multipart/form-data">
-			<input id="returnUrl" name="returnUrl" value="/myshop/index.jsp" type="hidden">
-			<input id="forbidIpUrl" name="forbidIpUrl" value="/index.jsp" type="hidden">
-			<input id="certificationUrl" name="certificationUrl" value="/intro/adult_certification.jsp?returnUrl=%2Fmyshop%2Findex.jsp" type="hidden">
+				<form id="member_form_3811761512" name="" action="#" method="post" target="_self" enctype="multipart/form-data">
+			<input id="returnUrl" name="returnUrl" value="#" type="hidden">
+			<input id="forbidIpUrl" name="forbidIpUrl" value="index.jsp" type="hidden">
+			<input id="certificationUrl" name="certificationUrl" value="#" type="hidden">
 			<input id="sIsSnsCheckid" name="sIsSnsCheckid" value="" type="hidden">
 			<input id="sProvider" name="sProvider" value="" type="hidden"><div id="member_login" class="xans-element- xans-member xans-member-login "><!--
 						$defaultReturnUrl = /index.jsp

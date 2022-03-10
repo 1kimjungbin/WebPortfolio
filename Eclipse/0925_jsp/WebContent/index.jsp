@@ -23,7 +23,7 @@
             
             });
             </script>
-        <meta charset="UTF-8" pageencoding="UTF-8">
+        <meta charset="UTF-8" pageEncoding="UTF-8">
         <!-- index 스타일-->
         <style>
             * {
